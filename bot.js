@@ -3,7 +3,7 @@ const { play, stop } = require('./commands');
 
 const bot = new Client();
 
-bot.login('process.env.token');
+bot.login(process.env.token);
 
 bot.on('ready', () => console.log('ErdoğanBotu Aktif'));
 
